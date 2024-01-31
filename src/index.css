@@ -13,3 +13,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+main {
+  display: flex;
+  max-width: 1248px;
+  margin: 0 auto;
+}
