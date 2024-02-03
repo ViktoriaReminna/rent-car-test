@@ -2,14 +2,16 @@ import styled from '@emotion/styled';
 import { colors } from 'utils';
 
 export const PageWrapper = styled.div`
-  padding-right: 91px;
+  /* padding-right: 91px;
   padding-left: 163px;
   padding-top: 70px;
-  padding-bottom: 150px;
-  margin: 0 auto;
+  padding-bottom: 150px; */
+  margin-left: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 `;
 
 export const Text = styled.p`

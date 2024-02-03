@@ -31,7 +31,7 @@ export const carsSlice = createSlice({
   },
   extraReducers: builder => {
     builder.addCase(fetchCars.fulfilled, (state, action) => {
-      state.cars = action.payload;
+      state.cars = [...state.cars, ...action.payload];
       state.isLoading = false;
     });
     builder.addCase(fetchCars.rejected, handleRejected);

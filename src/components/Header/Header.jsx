@@ -1,4 +1,6 @@
-import UserNav from '../UserNav/UserNav';
+import Nav from '../Nav/Nav';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
 
 import {
   HeaderContainer,
@@ -8,6 +10,7 @@ import {
   UserBarWrapper,
   NavWrap,
   Wrapper,
+  Logo,
 } from './Header.styled';
 
 const Header = () => {
@@ -15,18 +18,12 @@ const Header = () => {
     <Wrapper>
       <HeaderContainer>
         <HeaderWrap>
-          {/* <LinkLogo>
-            <Icon
-              name="logo"
-              iconWidth={{ mobile: '36px', tablet: '44px' }}
-              iconHeight={{ mobile: '13px', tablet: '17px' }}
-            />
-            <span>PowerPulse</span>
-          </LinkLogo> */}
-
+          <Link to="/">
+            <Logo src={logo} alt="logo" />
+          </Link>
           <UserContainer>
             <NavWrap>
-              <UserNav />
+              <Nav />
             </NavWrap>
             <UserBarWrapper></UserBarWrapper>
           </UserContainer>

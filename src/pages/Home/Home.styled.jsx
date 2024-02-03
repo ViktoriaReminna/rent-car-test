@@ -26,6 +26,6 @@ export const Text = styled.p`
   font-size: 38px;
   color: white;
   width: 900px;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
 `;

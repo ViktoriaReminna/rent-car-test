@@ -3,17 +3,14 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
-  background-color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #0b135f;
   border-bottom: '1px solid rgba(239, 237, 232, 0.20)';
 `;
 export const HeaderContainer = styled.header`
   padding-top: 24px;
   padding-bottom: 24px;
-
-  @media screen and (min-width: 1440px) {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
 `;
 
 export const HeaderWrap = styled.div`
@@ -33,18 +30,10 @@ export const LinkLogo = styled(Link)`
   line-height: 1.33;
   color: rgba(239, 237, 232, 1);
   text-decoration: none;
-  @media screen and (min-width: 768px) {
-    font-size: 19px;
-    width: 150px;
-  }
 `;
 
 export const NavWrap = styled.nav`
   margin-right: 32px;
-
-  @media screen and (max-width: 1439px) {
-    display: none;
-  }
 `;
 
 export const UserContainer = styled.div`
@@ -59,4 +48,10 @@ export const UserBarWrapper = styled.div`
   display: flex;
   gap: 16px;
   align-items: center;
+`;
+export const Logo = styled.img`
+  width: 60px;
+  height: auto;
+  display: block;
+  background-color: transparent;
 `;

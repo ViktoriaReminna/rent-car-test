@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
-import { selectIsLoading, selectVisibleCars } from 'redux/selectors';
+import { selectIsLoading, selectVisibleCars } from '../../redux/selectors';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchCars } from 'redux/operations';
+import { fetchCars } from '../../redux/operations';
 import { PageWrapper, Text } from './Cars.styled';
 import CardsList from 'components/CardsList/CardsList';
 import Filters from 'components/Filters/Filters';
 import Loader from 'components/Loader/Loader';
-import { resetFilter } from 'redux/filterSlice';
+import { resetFilter } from '../../redux/filterSlice';
 
-const Catalog = () => {
+const Cars = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const Catalog = () => {
   );
 };
 
-export default Catalog;
+export default Cars;

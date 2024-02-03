@@ -2,13 +2,18 @@ import styled from '@emotion/styled';
 
 import { NavLink } from 'react-router-dom';
 
-export const NavList = styled.ul`
+export const NavWrap = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 16px;
+`;
+export const Linka = styled.a`
+  text-decoration: none;
+  color: white;
 `;
 
 export const LinkStyled = styled(NavLink)`
+  margin-right: 16px;
+  gap: 16px;
   color: white;
   border-radius: 12px;
   border: 1px solid rgba(239, 237, 232, 0.2);
