@@ -1,1 +1,1 @@
-car-rent-test
+rent-car-test
