@@ -1,4 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit';
+import { arrOfUnique, filterCars } from 'utils';
 
 export const selectCars = state => state.cars.cars;
 
@@ -26,3 +27,28 @@ export const selectVisibleCars = createSelector(
     return filtredCars;
   }
 );
+
+export const selectBrands = createSelector([selectCars], cars => {
+  const uniqueBrands = arrOfUnique(cars, 'make');
+
+  const brands = Array.from(uniqueBrands).map(brandName => ({
+    value: brandName.toLowerCase(),
+    label: brandName,
+  }));
+  return brands;
+});
+
+export const selectPrice = createSelector([selectCars], cars => {
+  const uniquePrice = arrOfUnique(cars, 'rentalPrice');
+
+  const numericPrices = uniquePrice.map(price =>
+    parseInt(price.replace('$', ''), 10)
+  );
+  const maxPrice = Math.max(...numericPrices);
+  const priceOption = [];
+
+  for (let i = 30; i <= maxPrice; i += 10) {
+    priceOption.push({ value: i, label: i.toString() });
+  }
+  return priceOption;
+});
