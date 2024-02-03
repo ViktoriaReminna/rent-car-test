@@ -6,8 +6,8 @@ export const FiltersWrapper = styled.div`
   display: flex;
   justify-content: center;
   gap: 18px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 120px;
+  margin-bottom: 20px;
 
   position: relative;
   z-index: 2;

@@ -1,6 +1,6 @@
 import { Title, Text, Wrapper } from './Description.styled';
 
-export const Description = () => {
+const Description = () => {
   return (
     <Wrapper>
       <div>
@@ -14,3 +14,4 @@ export const Description = () => {
     </Wrapper>
   );
 };
+export default Description;

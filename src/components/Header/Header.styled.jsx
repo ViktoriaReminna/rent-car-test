@@ -3,6 +3,12 @@ import styled from '@emotion/styled';
 import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.div`
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+
+  z-index: 200;
   padding-left: 40px;
   padding-right: 40px;
   background-color: #0b135f;

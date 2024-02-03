@@ -2,10 +2,9 @@ import styled from '@emotion/styled';
 import { colors } from 'utils';
 
 export const PageWrapper = styled.div`
-  /* padding-right: 91px;
-  padding-left: 163px;
-  padding-top: 70px;
-  padding-bottom: 150px; */
+  padding-right: 30px;
+  padding-left: 30px;
+
   margin-left: auto;
   display: flex;
   justify-content: center;

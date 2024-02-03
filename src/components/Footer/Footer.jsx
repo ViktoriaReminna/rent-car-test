@@ -1,6 +1,6 @@
 import { FooterContainer, FooterContent, StyledLink } from './Footer.styled';
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <FooterContainer>
       <FooterContent>
@@ -19,3 +19,4 @@ export const Footer = () => {
     </FooterContainer>
   );
 };
+export default Footer; 
