@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 
 import Layout from './Layout/Layout';
 import Loader from './Loader/Loader';
@@ -7,7 +7,6 @@ import { lazy, Suspense } from 'react';
 const Home = lazy(() => import('../pages/Home/Home'));
 const Cars = lazy(() => import('../pages/Cars/Cars'));
 const Favorite = lazy(() => import('../pages/Favorites/Favorites'));
-const NotFound = lazy(() => import('../pages/NotFound/NotFound'));
 
 function App() {
   return (
@@ -17,7 +16,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/catalog" element={<Cars />} />
           <Route path="/favorites" element={<Favorite />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>
     </Suspense>

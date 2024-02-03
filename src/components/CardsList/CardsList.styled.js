@@ -9,6 +9,6 @@ export const List = styled.ul`
   justify-content: center;
   text-decoration: none;
   align-items: center;
-
+  list-style: none;
   width: 100%;
 `;

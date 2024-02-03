@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import { ButtonStyled } from './Buttons.styled';
 
 const Button = ({ padding, text, handleClick }) => {
@@ -9,8 +9,5 @@ const Button = ({ padding, text, handleClick }) => {
   );
 };
 
-Button.propTypes = {
-  padding: PropTypes.string,
-  text: PropTypes.string,
-};
+
 export default Button;

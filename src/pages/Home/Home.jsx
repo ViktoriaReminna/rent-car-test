@@ -1,17 +1,15 @@
-import { Wrapper, Title,Text } from './Home.styled';
-
+import { Footer } from 'components/Footer/Footer';
+import { Description } from '../../components/Description/Description';
+import Hero from '../../components/Hero/Hero';
 const Home = () => {
   return (
-    <Wrapper>
+    <>
+      <Hero />
       <div>
-        <Title>DriverUkr: Your Guide to Perfect Car Travel Experiences!</Title>
-        <Text>
-          Whether you're setting off on a business journey, planning a family
-          getaway, or diving into an impromptu road trip, we offer the ideal
-          vehicle to match your requirements.
-        </Text>
+        <Description />
       </div>
-    </Wrapper>
+      <Footer />
+    </>
   );
 };
 

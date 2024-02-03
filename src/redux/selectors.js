@@ -15,16 +15,16 @@ export const selectFavorites = createSelector(
   [selectCars, selectFavoritesId, selectFilter],
   (cars, ids, filter) => {
     const favCars = cars.filter(car => ids.includes(car.id));
-    const favFiltredCars = filterCars(favCars, filter);
-    const allFavCars = { favFiltredCars, favCars };
+    const favFilteredCars = filterCars(favCars, filter);
+    const allFavCars = { favFilteredCars, favCars };
     return allFavCars;
   }
 );
 export const selectVisibleCars = createSelector(
   [selectCars, selectFilter],
   (cars, filter) => {
-    const filtredCars = filterCars(cars, filter);
-    return filtredCars;
+    const filteredCars = filterCars(cars, filter);
+    return filteredCars;
   }
 );
 
