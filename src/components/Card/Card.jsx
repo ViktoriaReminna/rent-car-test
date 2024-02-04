@@ -1,4 +1,5 @@
 import Button from 'components/Buttons/Buttons';
+import placeholderImage from '../../assets/images/download.webp';
 import {
   Highlight,
   Img,
@@ -39,7 +40,12 @@ const Card = ({ info }) => {
         <BtnAddFav onClick={() => dispatch(toggleFavorite(info.id))}>
           {isFavorite ? <SvgHeart /> : <SvgHeartEmpty />}
         </BtnAddFav>
-        <Img src={info?.img} alt={info?.make} onClick={toggleOpen} />
+        <Img
+          src={info?.img || placeholderImage}
+          alt={info?.make}
+          onClick={toggleOpen}
+          onError={e => (e.target.src = placeholderImage)}
+        />
       </ImgWrapper>
       <TextWrapper>
         <MainInfo fs={16}>
