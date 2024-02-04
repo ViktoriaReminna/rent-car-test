@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
 `;
 
 export const Text = styled.p`
@@ -14,7 +15,7 @@ export const Text = styled.p`
   font-weight: 700;
   font-size: 34px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 `;
 
 export const Heart = styled(MdHeartBroken)`
@@ -36,6 +37,7 @@ export const Link = styled(NavLink)`
   width: 245px;
   transition: color 250ms ease, border 250ms ease, scale 250ms ease;
   text-align: center;
+  text-decoration: none;
   &:hover,
   &:focus {
     color: ${colors.btnSecondary};

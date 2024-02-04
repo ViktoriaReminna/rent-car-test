@@ -5,7 +5,7 @@ import { ButtonStyled } from '../Buttons/Buttons.styled';
 
 export const Overlay = styled.div`
   position: fixed;
-  top: 50;
+  top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -13,7 +13,7 @@ export const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   background: rgba(18, 20, 23, 0.5);
-  z-index: 100;
+  z-index: 300;
 `;
 
 export const ModalWindow = styled.div`
@@ -25,7 +25,7 @@ export const ModalWindow = styled.div`
   padding: 40px;
   background-color: ${colors.while};
   border-radius: 24px;
-  z-index: 300;
+  z-index: 301;
 `;
 
 export const BtnClose = styled.button`

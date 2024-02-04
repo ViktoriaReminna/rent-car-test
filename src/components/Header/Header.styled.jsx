@@ -13,16 +13,19 @@ export const Wrapper = styled.div`
   padding-right: 40px;
   background-color: #0b135f;
   border-bottom: '1px solid rgba(239, 237, 232, 0.20)';
+  
 `;
 export const HeaderContainer = styled.header`
   padding-top: 24px;
   padding-bottom: 24px;
+  
 `;
 
 export const HeaderWrap = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 `;
 
 export const LinkLogo = styled(Link)`

@@ -7,6 +7,7 @@ export const HeroSection = styled.section`
   margin: auto;
   padding: 24px 16px;
   position: relative;
+  top: 70px;
   display: block;
 `;
 
