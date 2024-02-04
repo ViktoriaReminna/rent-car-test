@@ -11,7 +11,7 @@ export const Title = styled.h1`
   color: dark;
   width: 100%;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 100px;
 `;
 
 export const Text = styled.p`
