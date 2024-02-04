@@ -41,3 +41,13 @@ export const carsSlice = createSlice({
 
 export default carsSlice.reducer;
 export const { toggleFavorite } = carsSlice.actions;
+
+// initialState,
+// reducers: {
+//   toggleFavorite(state, action) {
+//     const index = state.favorites.indexOf(action.payload);
+//     if (index !== -1) {
+//       state.favorites.splice(index, 1);
+//     } else {
+//       state.favorites.push(action.payload);
+//     }

@@ -19,7 +19,7 @@ export const Slide = styled.div`
   background-size: cover;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  transition: background-image 0.5s ease-in-out;
+  transition: background-image 350ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 `;
 
 export const Arrow = styled.div`

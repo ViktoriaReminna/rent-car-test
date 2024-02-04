@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styled from '@emotion/styled';
+import { colors } from 'utils';
 
 export const FooterContainer = styled.footer`
   background-color: #0b135f;
@@ -32,6 +33,6 @@ export const StyledLink = styled(NavLink)`
   transition: 3ms color ease;
 
   &:hover {
-    color: #0b44cd;
+    color: ${colors.btnSecondary};
   }
 `;

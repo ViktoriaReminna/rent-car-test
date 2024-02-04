@@ -63,7 +63,7 @@ export const Submit = styled.button`
   font-weight: 600;
   color: ${colors.btnText};
   margin-left: 18px;
-  transition: background 350ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  transition: background-color 350ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
   &:hover,
   &:focus {
     background: ${colors.btnSecondary};

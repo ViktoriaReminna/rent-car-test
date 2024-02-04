@@ -1,8 +1,9 @@
 import styled from '@emotion/styled';
+import { colors } from 'utils';
 
 export const Button = styled.button`
   display: block;
-  color: #3470ff;
+  color: ${colors.btnMain};
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;

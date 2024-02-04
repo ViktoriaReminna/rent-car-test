@@ -52,3 +52,8 @@ export const selectPrice = createSelector([selectCars], cars => {
   }
   return priceOption;
 });
+
+// [selectCars, selectFavoritesId],
+// (cars, favoriteIds) => {
+//   const favCars = cars.filter(car => favoriteIds.includes(car.id));
+//   return favCars;

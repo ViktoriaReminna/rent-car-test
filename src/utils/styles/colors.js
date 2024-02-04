@@ -1,14 +1,13 @@
 const colors = {
   textMain: '#121417',
-  textSecondary: 'rgba(19, 21, 25, 0.5)',
-  btnMain: '#3571FF',
-  btnSecondary: '#0C45D7',
+  textSecondary: 'rgba(18, 20, 23, 0.50)',
+  btnMain: '#3470FF',
+  btnSecondary: '#0B44CD',
   btnText: '#FFFFFF',
-  input: '#F8F8FC',
-  inputSvg: '#d0d0d0',
+  input: '#F7F7FB',
   while: '#FFF',
-  cardBcg: '#FAFAFA',
-  colorLabel: '#8A8A89',
+  cardBcg: '#F9F9F9',
+  inputSvg: '#cccccc',
 };
 
 export default colors;
