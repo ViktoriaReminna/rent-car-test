@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rent-car-test/static/css/main.fa5f2e9b.css",
-    "main.js": "/rent-car-test/static/js/main.c169abd3.js",
-    "static/js/743.2c8a9a5f.chunk.js": "/rent-car-test/static/js/743.2c8a9a5f.chunk.js",
+    "main.js": "/rent-car-test/static/js/main.1f5ec695.js",
+    "static/js/743.fc2396e5.chunk.js": "/rent-car-test/static/js/743.fc2396e5.chunk.js",
     "static/js/642.7dfd1160.chunk.js": "/rent-car-test/static/js/642.7dfd1160.chunk.js",
     "static/js/733.db588227.chunk.js": "/rent-car-test/static/js/733.db588227.chunk.js",
     "static/js/620.cb6c6c75.chunk.js": "/rent-car-test/static/js/620.cb6c6c75.chunk.js",
     "static/js/270.25515576.chunk.js": "/rent-car-test/static/js/270.25515576.chunk.js",
-    "static/js/20.536086c9.chunk.js": "/rent-car-test/static/js/20.536086c9.chunk.js",
+    "static/js/20.2618a662.chunk.js": "/rent-car-test/static/js/20.2618a662.chunk.js",
     "static/media/2.png": "/rent-car-test/static/media/2.10e1a1317cbfdeaace08.png",
     "static/media/6.png": "/rent-car-test/static/media/6.80f941da23f885887f5e.png",
     "static/media/3.png": "/rent-car-test/static/media/3.480c5b90c74a9b5c76b3.png",
@@ -21,16 +21,16 @@
     "static/media/logo.png": "/rent-car-test/static/media/logo.9d3076b2c943ec1f0f26.png",
     "index.html": "/rent-car-test/index.html",
     "main.fa5f2e9b.css.map": "/rent-car-test/static/css/main.fa5f2e9b.css.map",
-    "main.c169abd3.js.map": "/rent-car-test/static/js/main.c169abd3.js.map",
-    "743.2c8a9a5f.chunk.js.map": "/rent-car-test/static/js/743.2c8a9a5f.chunk.js.map",
+    "main.1f5ec695.js.map": "/rent-car-test/static/js/main.1f5ec695.js.map",
+    "743.fc2396e5.chunk.js.map": "/rent-car-test/static/js/743.fc2396e5.chunk.js.map",
     "642.7dfd1160.chunk.js.map": "/rent-car-test/static/js/642.7dfd1160.chunk.js.map",
     "733.db588227.chunk.js.map": "/rent-car-test/static/js/733.db588227.chunk.js.map",
     "620.cb6c6c75.chunk.js.map": "/rent-car-test/static/js/620.cb6c6c75.chunk.js.map",
     "270.25515576.chunk.js.map": "/rent-car-test/static/js/270.25515576.chunk.js.map",
-    "20.536086c9.chunk.js.map": "/rent-car-test/static/js/20.536086c9.chunk.js.map"
+    "20.2618a662.chunk.js.map": "/rent-car-test/static/js/20.2618a662.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa5f2e9b.css",
-    "static/js/main.c169abd3.js"
+    "static/js/main.1f5ec695.js"
   ]
 }
